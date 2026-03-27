@@ -1,0 +1,10 @@
+# Environments
+backend/venv/
+frontend/node_modules/
+
+# Environment Variables
+backend/.env
+frontend/.env.local
+
+# Mac System Files
+.DS_Store
