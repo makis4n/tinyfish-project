@@ -4,7 +4,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-from routers import listings, meetup
+import logging
+logging.basicConfig(level=logging.INFO)
+
+from routers import listings, meetup, ingest
 
 app = FastAPI()
 
@@ -17,6 +20,7 @@ app.add_middleware(
 
 app.include_router(listings.router)
 app.include_router(meetup.router)
+app.include_router(ingest.router)
 
 
 @app.get("/")
