@@ -1,4 +1,4 @@
-# TinyFish
+# MeetGoWhere
 
 A Singapore food & events aggregator with an interactive map and friend meetup finder. Scrapes listings from SG Culture Pass, Chope, and Eventbrite, normalises them into a unified database, and helps groups of friends find a venue that's fair for everyone to travel to.
 
